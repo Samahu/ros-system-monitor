@@ -6,9 +6,10 @@
   </description>
   <author>Ralf Kaestner</author>
   <author>Jerome Maye</author>
-  <maintainer email="ralf.kaestner@gmail.com">Ralf Kaestner</maintainer>
-  <license>GNU Lesser General Public License (LGPL)</license>
-  <url>http://github.com/ethz-asl/ros-system-monitor</url>
+  <author>Ussama Naal</author>
+  <maintainer email="usa.naal@gmail.com">Ussama Naal</maintainer>
+  <license>BSD</license>
+  <url>http://github.com/Samahu/ros-system-monitor</url>
   <buildtool_depend>catkin</buildtool_depend>
   <run_depend>rospy</run_depend>
   <run_depend>std_msgs</run_depend>

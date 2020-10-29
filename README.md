@@ -4,15 +4,13 @@
 
 System monitoring tools for ROS.
 
-**Author(s):** Willow Garage, Inc., Jerome Maye, Ralf Kaestner
+**Author(s):**
+* Ussama Naal
+* Willow Garage, Inc., Jerome Maye, Ralf Kaestner
 
-**Maintainer:** Ralf Kaestner <ralf.kaestner@gmail.com>
+**Maintainer:** Ussama Naal <usa.naal@gmail.com>
 
 **License:** BSD License (BSD)
-
-**Operating system(s):** Debian-based Linux
-
-**Package PPA:** ppa:ethz-asl/ros
 
 ## Description
 
@@ -25,41 +23,6 @@ following ROS nodes:
 * Network monitor
 * NTP monitor
 
-Each node publishes ROS diagnostics which can conveniently be visualized
-in the runtime monitor.
-
-## Installation
-
-Here, we assume you intend to build/install the project for the ROS
-distribution named `ROS_DISTRO`.
-
-### Installing from packages (recommended for Ubuntu LTS users)
-
-The maintainers of this project provide binary packages for the latest Ubuntu
-LTS releases and commonly used system architectures. To install these packages,
-you may follow these instructions:
-
-* Add the project PPA to your APT sources by issuing 
-
-  ```
-  sudo add-apt-repository ppa:ethz-asl/ros
-  ```
-
-  on the command line
-
-* To re-synchronize your package index files, run
-
-  ```
-  sudo apt-get update
-  ```
-
-* Install all project packages and their dependencies through
-
-  ```
-  sudo apt-get install ros-ROS_DISTRO-system-monitor
-  ```
-
-  or using your favorite package management tool
 
 ### Building from source
 
@@ -76,15 +39,6 @@ simply use the command
 sudo apt-get install ros-ROS_DISTRO-rospy, ros-ROS_DISTRO-message-generation, ros-ROS_DISTRO-std-msgs, ros-ROS_DISTRO-diagnostic-msgs
 
 ```
-#### Building with ReMake
-
-##### Preparing the build system
-
-If you already have installed ReMake on your build system, you may
-skip this step. Otherwise, before attempting to build this project the
-traditional CMake way, you must install ReMake following
-[these instructions](https://github.com/kralf/remake).
-
 ##### Building with CMake
 
 Once ReMake is available on your build system, you may attempt to build this
